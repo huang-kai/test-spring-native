@@ -1,0 +1,11 @@
+server:
+  port: 9000
+  shutdown: graceful
+
+spring:
+  profiles:
+    active: default
+
+logging:
+  level:
+    root: info
